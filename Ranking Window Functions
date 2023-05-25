@@ -9,7 +9,7 @@ SELECT
 FROM
 	production.products;
 
-#####################################
+######################################
 
 SELECT * FROM (
 	SELECT
