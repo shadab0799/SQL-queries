@@ -1,1 +1,10 @@
 ranking window function
+SELECT
+	product_id,
+	product_name,
+	list_price,
+	RANK () OVER ( 
+		ORDER BY list_price DESC
+	) price_rank 
+FROM
+	production.products;
